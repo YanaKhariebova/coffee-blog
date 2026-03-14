@@ -26,7 +26,7 @@ The design was recreated from a screenshot and implemented using **responsive we
 
 ## 🔗 GitHub Repository
 
-[https://yanakhariebova.github.io/coffee-blog/](https://yanakhariebova.github.io/coffee-blog/)
+[View the project on GitHub](https://yanakhariebova.github.io/coffee-blog/)
 
 ---
 
@@ -56,4 +56,4 @@ Das Design wurde anhand eines Screenshots nachgebaut und mit **Responsive Design
 
 ## 🔗 GitHub Repository
 
-[https://yanakhariebova.github.io/coffee-blog/](https://yanakhariebova.github.io/coffee-blog/)
+[Projekt auf GitHub ansehen](https://yanakhariebova.github.io/coffee-blog/)
