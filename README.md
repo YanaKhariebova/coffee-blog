@@ -57,7 +57,3 @@ Das Design wurde anhand eines Screenshots nachgebaut und mit **Responsive Design
 ## 🔗 GitHub Repository
 
 [https://yanakhariebova.github.io/coffee-blog/](https://yanakhariebova.github.io/coffee-blog/)
-
-## 👩‍💻 Autor
-
-Yana Khariebova
