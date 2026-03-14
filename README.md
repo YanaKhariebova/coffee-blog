@@ -26,7 +26,7 @@ The design was recreated from a screenshot and implemented using **responsive we
 
 ## 🔗 GitHub Repository
 
-[View the project on GitHub](https://github.com/USERNAME/coffee-blog)
+[Projekt auf GitHub ansehen]([(https://yanakhariebova.github.io/coffee-blog/))
 
 ---
 
@@ -56,8 +56,8 @@ Das Design wurde anhand eines Screenshots nachgebaut und mit **Responsive Design
 
 ## 🔗 GitHub Repository
 
-[Projekt auf GitHub ansehen](https://github.com/USERNAME/coffee-blog)
+[Projekt auf GitHub ansehen]([(https://yanakhariebova.github.io/coffee-blog/))
 
 ## 👩‍💻 Autor
 
-Yana Harebova
+Yana Khariebova
