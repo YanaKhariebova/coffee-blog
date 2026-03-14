@@ -1,0 +1,142 @@
+/* =========================================
+   ALLGEMEINES STYLING
+========================================= */
+body {
+  background-color: #f5f5dc;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(23, 75, 58); /* Textfarbe */
+}
+
+/* Header */
+header {
+  background-color: black;
+  padding: 10px 0;
+}
+
+nav ul {
+  color: white;
+  display: flex;
+  justify-content: flex-end; /* Menü rechts ausrichten */
+  gap: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0 20px;
+  list-style: none; /* keine Aufzählungszeichen */
+}
+
+/* Container */
+.container {
+  max-width: 1000px; /* maximale Breite */
+  margin: 0 auto; /* zentriert horizontal */
+  padding: 0 20px; /* Abstand innen */
+}
+
+/* =========================================
+   BLOG + SIDEBAR
+========================================= */
+.container.blog-content {
+  display: flex; /* Artikel und Sidebar nebeneinander */
+  gap: 20px; /* Abstand zwischen Artikel und Sidebar */
+}
+
+.blog-post {
+  flex: 3; /* Artikel größer */
+}
+
+.sidebar {
+  flex: 1; /* Sidebar kleiner */
+}
+
+/* Überschriftenfarben */
+h1,
+h2,
+h3 {
+  color: #008b8b;
+}
+
+/* Links in der Sidebar */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar a {
+  color: #005f5f;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* =========================================
+   BILDER
+========================================= */
+img {
+  width: 100%; /* Bilder passen sich der Breite an */
+  height: auto;
+}
+
+/* =========================================
+   FOOTER + FORMULAR
+========================================= */
+footer {
+  background-color: black;
+  color: white;
+  padding: 50px 20px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column; /* Inputs untereinander */
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto; /* zentriert im Footer */
+}
+
+.signup-form input {
+  width: 100%; /* Inputs nehmen ganze Breite */
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/* BUTTON mit Rahmen */
+.signup-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: black; /* Hintergrundfarbe */
+  color: #f5f5dc; /* Textfarbe beige */
+  border: 2px solid #f5f5dc; /* Rahmenfarbe */
+  border-radius: 5px; /* abgerundete Ecken */
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease; /* sanfte Animation beim Hover */
+  margin-left: 15px; /* сдвигаем вправо */
+}
+
+.signup-form button:hover {
+  background-color: #333; /* dunkler bei Hover */
+  border-color: #f0e5c5; /* Rahmen heller */
+  color: #f0e5c5; /* Text heller */
+}
+
+/* =========================================
+   MEDIA QUERIES - MOBIL
+========================================= */
+@media (max-width: 768px) {
+  .container.blog-content {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  footer {
+    padding: 40px 20px;
+  }
+}
